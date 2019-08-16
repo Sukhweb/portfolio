@@ -1,0 +1,51 @@
+@import "variables";
+
+
+.contactMe {
+  padding: 1em;
+  font-family: 'Nunito';
+  font-weight: 400;
+  background-color: #44628A;
+  height: 100vh;
+
+}
+
+.contactHeader {
+  text-align: center;
+  margin: auto;
+  background-color: white ;
+  width: 7em;
+  height: auto;
+  line-height: 1.5em;
+  border-radius: 2em;
+  padding: 0 0.10em;
+  font-style: bold;
+  font-weight: 700;
+
+}
+
+.textAlign {
+  color: white;
+  margin: 0.25em;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 400;
+  font-style: bold;
+}
+
+
+.links{
+  padding: 2em;
+}
+
+
+.logo {
+  width: 12em;
+  height: auto;
+}
+
+.resumeContent {
+  padding: 1em;
+  margin: 2em;
+  text-align: center;
+}

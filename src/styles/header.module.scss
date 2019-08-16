@@ -1,0 +1,38 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
+
+body {
+  font: 400 regular 1em Nunito;
+}
+
+.logoWrapper {
+  // background-color: #7A8283;
+  background-color: #202020;
+}
+
+.colorNav {
+  background-color: #202020;
+  color: white;
+}
+
+.roundNav {  
+  margin: auto;
+  background-color: #292828 ;
+  width: 28em;
+  height: auto;
+  line-height: 3em;
+  border-radius: 2em;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  padding: 0 0.5em;
+  font-family: 'Nunito';
+}
+
+
+.logo {
+  display: block;
+  width: 25em;
+  margin: 0 auto;
+  padding: 1em;
+}

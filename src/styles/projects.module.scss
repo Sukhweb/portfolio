@@ -1,0 +1,47 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+.projects {
+  padding: 1em;
+  background-color: #334967;
+}
+
+
+.projectsHeader {
+ text-align: center;
+ margin: auto;
+ background-color: #292828;
+ color: white;
+ width: 5em;
+ height: auto;
+ line-height: 1.5em;
+ border-radius: 2em;
+ padding: 0 0.10em; 
+ font-family: 'Nunito';
+ font-style: bold;
+ font-weight: 700;
+
+}
+
+.projectsWrap {
+  margin: 0 6em;
+  padding :4em 0;
+  margin-bottom: 2em;      
+}
+
+.cardGroup {
+  margin: 1em;      
+}
+
+.resizeCard {
+  width: 13rem;
+  margin: 2em;
+}
+
+
+
+
+

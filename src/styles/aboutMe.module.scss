@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
+
+@import "variables";
+
+.aboutMe {
+  // background-color: #44628A;
+  padding: 1em;
+  // font: 400  1em "Nunito";
+}
+
+.head {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: auto;
+  width: 7em;
+  height: auto;
+  line-height: 1.5em;
+  border-radius: 2em;
+  padding: 0 0.10em;
+  font-family: 'Nunito';
+  font-style: bold;
+  font-weight: 700;
+
+}
+
+.textWrap {
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Nunito';
+  font-weight: 400;
+  text-align: center;
+}
+
+.imgAlign {
+  display: block;
+  margin: 0 auto;
+}
+
+.formatRow {
+  text-align: center;
+  margin-left: 40px;
+}
+
+.gradientBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../images/blueblack-gradient.jpg");
+  background-repeat: no-repeat;
+  background-position: center;  
+}

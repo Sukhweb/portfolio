@@ -1,0 +1,15 @@
+@import "variables";
+
+.footer {
+  // background-color: $col-b;
+  background-color: #202020;
+  color: $col-b-on;
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1em;
+  padding: {
+    top: $space * 1;
+    bottom: $space * 1;
+  };
+
+}

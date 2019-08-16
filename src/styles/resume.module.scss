@@ -1,0 +1,47 @@
+@import "variables";
+
+.resume {
+  background-color: #292828;
+  padding: 1em;
+}
+
+.resumeHeader {
+  text-align: center;
+  margin: auto;
+  background-color: #334967;
+  color: white;
+  width: 5em;
+  height: auto;
+  line-height: 1.5em;
+  border-radius: 2em;
+  padding: 0 0.10em; 
+  font-family: 'Nunito';
+  font-style: bold;
+  font-weight: 700;
+ 
+}
+
+.content {
+  color: white;
+  padding: 1em;
+  font-family: 'Nunito';
+  font-style: regular;
+  font-weight: 400;
+}
+
+.profileHeader {
+  text-align: center;
+  margin: auto;
+  background-color: #334967;
+  color: white;
+  width: 10em;
+  height: auto;
+  line-height: 1.5em;
+  border-radius: 2em;
+  padding: 0 0.10em; 
+  font-family: 'Nunito';
+  font-style: bold;
+  font-weight: 400;
+}
+
+
