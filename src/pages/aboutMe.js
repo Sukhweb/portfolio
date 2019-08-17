@@ -12,11 +12,10 @@ import nodeLogo from "../images/node-logo.png"
 const AboutMe = () => {
   return (
     <Layout>
-     <body className={style.gradientBg}> 
-    <section className={style.aboutMe}>
+    <section className={`container-fluid pt-2 ${style.gradientBg}`}>
        <h1 className={`mt-3 ${style.head}`} >About Me</h1>
        <img src={myHeadshot} className={`${style.imgAlign}`}  width="250px" height="auto"/>
-       <p className={`container mt-3  ${style.textWrap}`}>
+       <p className={`container text-center ${style.textWrap}`}>
         Hi, I am Sukhjeet Kaur.I am front-end Web Developer. I have recently graduated from  Web Design
         & Development, program at Humber. I also have a bachelors degree in Computer Science & Engineering.
         I am passionate about developing websites with interactive and user-friendly interfaces. I believe i 
@@ -29,7 +28,7 @@ const AboutMe = () => {
        
 
        <h1 className={`mt-5 ${style.head}`} >Skills</h1> 
-       <div className={`container row justify-content-center mt-4 mb-4 p-3 ${style.formatRow}`}>
+       <div className={`container-fluid row justify-content-center mt-4 mb-4 p-3 ${style.formatRow}`}>
           <img src={htmlLogo} alt="Html" className="col-md-2 col-4 p-3 m-1"/>
           <img src={cssLogo} alt="CSS" className="col-md-2 col-4 p-3 m-1" />
           <img src={jsLogo} alt="JavaScript" className="col-md-2 col-4 p-4 m-1" />
@@ -38,7 +37,6 @@ const AboutMe = () => {
         </div>
   
     </section>
-    </body>
     </Layout>
   )
 }

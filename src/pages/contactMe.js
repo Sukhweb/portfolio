@@ -9,7 +9,6 @@ import Github from "../images/github.png"
 const ContactMe = () => {
   return (
     <Layout>
-      <body>
         <section className={style.contactMe}>
         <h1 className={`mt-3 ${style.contactHeader}`}>Contact Me</h1>
         <div className={`p-5`} >
@@ -26,10 +25,7 @@ const ContactMe = () => {
             </a>
           </div>
           </div>
-
-          
         </section> 
-      </body>
     </Layout>
   )
 }

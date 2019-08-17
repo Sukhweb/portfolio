@@ -5,7 +5,7 @@ import Footer from "./Footer"
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import $ from 'jquery';
 //  import 'bootstrap/dist/js/bootstrap.bundle.min';
-// import "../styles/general.scss"
+import "../styles/general.scss"
  import style from "../styles/layout.module.scss"
 
 
