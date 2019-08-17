@@ -39,7 +39,6 @@
 
 .formatRow {
   text-align: center;
-  margin-left: 40px;
 }
 
 .gradientBg {
@@ -49,4 +48,13 @@
   background-image: url("../images/blueblack-gradient.jpg");
   background-repeat: no-repeat;
   background-position: center;  
+}
+
+
+@media screen and (min-width: 600px){
+
+  .formatRow{
+  text-align: center;
+  margin-left: 40px;
+  }
 }

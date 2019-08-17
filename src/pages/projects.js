@@ -23,7 +23,7 @@ const Projects = () => {
       <div className={`container ${style.projectsWrap}`}>
         <div className={style.cardGroup}>
           <div className="card-deck"> 
-            <div className={`card ${style.resizeCard}`}>
+            <div className={`card  ${style.resizeCard}`}>
               <img src={project1} className={`card-img-top`} alt="..."/>
               <div className="card-body">
                 <h5 className="card-title text-center">AIR-BNB</h5>
