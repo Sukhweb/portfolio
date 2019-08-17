@@ -4,7 +4,7 @@ import project1 from "../images/airbnb.jpg"
 import project2 from "../images/abc-movies.jpg"  
 import project3 from "../images/kijiji.jpg" 
 import project4 from "../images/portfolio.jpg" 
-import project5 from "../images/iw-jewels.jpg"
+import project5 from "../images/humber-media-pros.jpg"
 import project6 from "../images/iw-jewels.jpg"
 import htmlLogo from "../images/html-xs.png"
 import cssLogo from "../images/css-xs.png"
@@ -84,7 +84,9 @@ const Projects = () => {
          <div className={style.cardGroup}>
           <div className="card-deck"> 
             <div className={`card ${style.resizeCard}`}>
-              <img src={project4} className={`card-img-top`} alt="..."/>
+            <a href="#">
+                <img src={project4} className={`card-img-top`}alt="..."/>
+              </a>
                 <div className="card-body">
                 <h5 className="card-title text-center">PORTFOLIO</h5>
                 <div class="row justify-content-center">
@@ -101,17 +103,18 @@ const Projects = () => {
 
 
             <div className={`card ${style.resizeCard}`}>
-              <img src={project5} className={`card-img-top`} alt="..."/>
+            <a href="https://www.humbermediapros.ca">
+                <img src={project5} className={`card-img-top`}alt="..."/>
+              </a>
                 <div className="card-body">
-                <h5 className="card-title text-center">ABC MOVIES</h5>
+                <h5 className="card-title text-center">HUMBER MEDIA PROS WEBSITE</h5>
                 <div class="row justify-content-center">
-                  <img src={htmlLogo}  alt="..."/>
-                  <img src={cssLogo}   alt="..."/>
-                  <img src={nodeLogo}   alt="..."/>
+                  <img src={reactLogo} className="p-2"  alt="..."/>
+                  <img src={gatsbyLogo} className="p-2"  alt="..."/>
                 </div> 
               </div>
               <div className="card-footer">
-              <a href="">
+              <a href="https://github.com/team-humber-web-2019/humber-media-pros.git">
                   <button className={`btn btn-secondary btn-block rounded-pill ${style.btnGit}`}>Github Repo</button>
                 </a>
               </div>
