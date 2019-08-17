@@ -13,8 +13,8 @@ const AboutMe = () => {
   return (
     <Layout>
     <section className={`container-fluid pt-2 ${style.gradientBg}`}>
-       <h1 className={`mt-3 ${style.head}`} >About Me</h1>
-       <img src={myHeadshot} className={`${style.imgAlign}`}  width="250px" height="auto"/>
+       <h1 className={`mt-3 ${style.head}`} >About Me</h1>    
+      <img src={myHeadshot} className={`${style.imgAlign}`}/>
        <p className={`container text-center ${style.textWrap}`}>
         Hi, I am Sukhjeet Kaur.I am front-end Web Developer. I have recently graduated from  Web Design
         & Development, program at Humber. I also have a bachelors degree in Computer Science & Engineering.

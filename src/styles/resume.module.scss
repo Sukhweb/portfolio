@@ -3,7 +3,7 @@
 .resume {
   background-color: #292828;
   padding: 1em;
-  width: 100%;
+  width: 100vw;
 }
 
 .resumeHeader {
@@ -35,14 +35,20 @@
   margin: auto;
   background-color: #334967;
   color: white;
-  width: 10em;
+  width: 7em;
   height: auto;
-  line-height: 1.5em;
+  line-height: 1em;
   border-radius: 2em;
-  padding: 0 0.10em; 
+  padding: 0.20em; 
   font-family: 'Nunito';
   font-style: bold;
   font-weight: 400;
 }
 
 
+ @media screen and (min-width: 600px){
+
+  .profileHeader{
+   width: 10em;
+  }
+}

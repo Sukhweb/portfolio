@@ -5,8 +5,8 @@ import style from "../styles/header.module.scss"
 
 const Header = () => {
   return (
-    <header>
-     <div className={style.logoWrapper}>
+    <header className={style.header}>
+     <div>
        <a  className="navbar-brand" href="#"/>
        <img src={logoPng}  alt="Sukhjeet Kaur" className={style.logo}/>
        </div> 
@@ -32,8 +32,6 @@ const Header = () => {
             <li className="nav-item">
               <Link className="nav-link text-center" activeClassName="active" to="/contactMe">Contact Me</Link>
             </li>
-
-
           </ul>
         </div>
       </nav> 

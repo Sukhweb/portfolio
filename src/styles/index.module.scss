@@ -4,7 +4,7 @@
 .bg {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100vw;
   height: 700px;
   background-size: cover;
   background-image: url("../images/hero.jpg");
@@ -19,10 +19,6 @@
   font-weight: 700;
 }
 
-.photograph {
-  width: 5em;
-  height: auto;
-}
 
 .formatText {
   color: white;

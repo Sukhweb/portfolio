@@ -7,9 +7,9 @@
   color: white;
   background-color: black;
   margin: auto;
-  width: 6em;
+  width: 4em;
   height: auto;
-  line-height: 1.5em;
+  line-height: 1em;
   border-radius: 2em;
   padding: 0 0.10em;
   font-family: 'Nunito';
@@ -20,14 +20,17 @@
 
 .textWrap {
   color: white;
-  text-align: inherit;
+  text-align: center;
   font-family: 'Nunito';
-  font-weight: 400;
+  font-weight: 300;
+  padding: 1em;
 }
 
 .imgAlign {
   display: block;
   margin: 0 auto;
+  width: 80vw;
+  height: auto;
 }
 
 .formatRow {
@@ -43,11 +46,15 @@
   background-position: center;  
 }
 
+ @media screen and (min-width: 600px){
 
-// @media screen and (min-width: 600px){
+  .imgAlign{
+    width:250px;
+    height: auto;
+  }
 
-//   .formatRow{
-//   text-align: center;
-//   margin-left: 40px;
-//   }
-// }
+  .head {
+    width: 7em;
+    line-height: 1.25em;
+  }
+ }
