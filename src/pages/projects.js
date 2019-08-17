@@ -95,7 +95,7 @@ const Projects = () => {
                 </div> 
               </div>
               <div className="card-footer">
-              <a href="">
+              <a href="https://github.com/Sukhweb/portfolio.git">
                   <button className={`btn btn-secondary btn-block rounded-pill ${style.btnGit}`}>Github Repo</button>
                 </a>
               </div>
